@@ -1,0 +1,9 @@
+INSERT INTO users(email, name, role) VALUES ('kristi_nocka@hotmail.com','Kristi', 'OWNER');
+INSERT INTO users(email, name, role) VALUES ('test@test.com','test', 'OWNER');
+INSERT INTO users(email, name, role) VALUES ('test1@test.com','test1', 'OWNER');
+INSERT INTO users(email, name, role) VALUES ('admin@test.com','admin', 'ADMIN');
+INSERT INTO property(capacity, name, owner_id) VALUES (2, 'LungoMare1',1);
+INSERT INTO property(capacity, name, owner_id) VALUES (2, 'LungoMare2',1);
+INSERT INTO property(capacity, name, owner_id) VALUES (4, 'LungoMare3',1);
+INSERT INTO property(capacity, name, owner_id) VALUES (4, 'LungoMare4',2);
+INSERT INTO property(capacity, name, owner_id) VALUES (5, 'LungoMare5',2);
